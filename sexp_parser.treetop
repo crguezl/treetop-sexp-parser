@@ -14,6 +14,8 @@ grammar Sexp
     (expression / identifier / float / integer / string / space )* <Body>
   end
 
+  # Treetop lets you define methods on AST or associate rules 
+  # with classes of nodes you wish your parsers to instantiate upon matching a rule.
   rule integer
     ('+' / '-')? [0-9]+ <IntegerLiteral>
   end

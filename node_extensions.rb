@@ -1,5 +1,5 @@
 # This module contains our custom syntax node classes. Each
-# class represents a distinct type of entity. Each clas
+# class represents a distinct type of entity. Each class
 # also has a distinct to_array method which allows the 
 # final AST to be converted easily into a structured array
 # representatiion
@@ -7,6 +7,7 @@
 module Sexp
   class IntegerLiteral < Treetop::Runtime::SyntaxNode
     def to_array
+      # The text_value method gives us access to the raw content of a node.
       return self.text_value.to_i
     end
   end

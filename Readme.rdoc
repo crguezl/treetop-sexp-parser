@@ -63,10 +63,12 @@ For easy reference the core grammar of the parser is reproduced here:
   
 === More Info
 
-For more info visit the {Treetop website}[http://treetop.rubyforge.org/], and have a read through the source-code of this parser (don't worry, there isn't much of it!).
+ * For more info visit the {Treetop website}[http://treetop.rubyforge.org/], and have a read through the source-code of this parser (don't worry, there isn't much of it!).
   
 
-See also {A quick intro to writing a parser with Treetop}[http://thingsaaronmade.com/blog/a-quick-intro-to-writing-a-parser-using-treetop.html].
+ * See also {A quick intro to writing a parser with Treetop}[http://thingsaaronmade.com/blog/a-quick-intro-to-writing-a-parser-using-treetop.html].
+
+ * And {Getting started with Treetop}[http://po-ru.com/diary/getting-started-with-treetop/]
 
 === Author & Credits
 
